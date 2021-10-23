@@ -6,8 +6,8 @@ public class  Test {
     JunitUserRegistrtation junitUserRegistrtation = new JunitUserRegistrtation();
 
     @org.junit.jupiter.api.Test
-    void givenLastName_ReturnTrue() {
-        boolean result = JunitUserRegistrtation.firstName("Chigulla");
+    void givenEmailId_ReturnTrue() {
+        boolean result = JunitUserRegistrtation.firstName("harshithag069@gmail.com");
         Assertions.assertTrue(result);
     }
 }
